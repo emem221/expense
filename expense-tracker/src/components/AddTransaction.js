@@ -41,7 +41,7 @@ function AddTransaction() {
         <div className="form-control">
           <p>
             Amount <br />
-            (Enter '-' before the amount to have your expense)
+            (Enter ' - ' before the amount to have your expense)
           </p>
           <select value={amount} onChange={handleChange} className="select">
             <option value="+">Income</option>
